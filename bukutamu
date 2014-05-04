@@ -1,0 +1,75 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="bootstrap311/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="bootstrap311/dist/css/offcanvas.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="bootstrap311/docs/examples/blog/blog.css"> 
+      <script src="bootstrap311/dist/jquery-1.11.0.min.js"></script>
+      <script src="bootstrap311/dist/js/bootstrap.min.js"></script>
+      <script src="bootstrap311/dist/js/offcanvas.js"></script>
+  	<title>Selamat Datang Di Situs Lowongan Kerja Paling Update Tahun 2014</title>
+  </head>
+  <body>
+  	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">Situs Informasi Loker Paling Update 2014</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.php">Beranda</a></li>
+              <li><a href="blog.php">Blog</a></li>
+              <li><a href="bukutamu.php">Bukutamu</a></li>
+              <li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Lainnya<b class="caret"></b></a>
+    	            <ul class="dropdown-menu">
+  	                <li><a href="login2.php">Masuk</a></li>
+  	                <li><a href="daftar.php">Daftar</a></li>
+  	                <li><a href="tentang.php">Tentang Kami</a></li>
+                  </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <div class="container">
+      <div class="col-md-7">
+        <div class="well well-lg">
+          <form class="form-signin" role="form" method="post" action="prosesbuktamu.php">
+            <h2 class="form-signin-heading">Isilah Buku Tamu</h2>
+              <label>Nama Lengkap :</label>
+              <input type="text" class="form-control" name="namabuktamu" required="" placeholder="Nama Lengkap">
+              <label>Email :</label>
+              <input type="email" class="form-control" name="namaemailbuktamu" placeholder="Email" required="" autofocus="">
+              <label>Pesan :</label>
+              <textarea class="form-control" rows="5" name="pesanbuktamu" required="" placeholder="Tuliskan Pesan Anda disini"></textarea>
+              <br><button class="btn btn-primary" type="submit">Kirim</button>&nbsp
+              <button class="btn btn-primary" type="reset">Reset</button>
+          </form>
+        </div>
+      </div>
+    	<div class="col-md-4">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>Tentang Saya</h4>
+            <p>Saya adalah mahasiswa universitas muhammadiyah jember dengan mengambil jurusan Teknik Informatika dan merupakan pembuat dari website ini</p>
+          </div>      
+      </div>
+    </div>
+      <div class="blog-footer">
+        <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> Edited by <a href="https://twitter.com/mastriawan">@mastriawan</a>.</p>
+        <p>
+          <a href="#">Back to top</a>
+        </p>
+      </div>	
+    </div>
+  </body>
+  </html>
