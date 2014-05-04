@@ -1,1 +1,8 @@
-git add *
+<?php
+	$host = "localhost";
+	$dbusername = "root";
+	$dbpassword = "";
+	$database = "latihan";
+	$konek = mysql_connect($host, $dbusername, $dbpassword);
+	$db = mysql_select_db($database, $konek);
+?>
